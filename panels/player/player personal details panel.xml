@@ -95,7 +95,7 @@
 
 			<container priority="1">
 				<layout class="stick_to_sides_attachment" apply_to_children="true"/>
-				<container class="client_object_viewer_selector_panel" id="tcHl" file="player/player overview header selector panel" save_session_state="true">
+				<container class="client_object_viewer_selector_panel" id="tcHl" file="player/my_player_information_panel" save_session_state="true">
 					<integer id="default_for_unemployed_managers" value="tpAb"/>
 					<integer id="default_for_international_managers_other_team" value="tpAb"/>
 					<integer id="default_for_everyone_else" value="tpAb"/>
@@ -105,7 +105,7 @@
 
 			<container priority="2">
 				<layout class="stick_to_sides_attachment" apply_to_children="true"/>
-				<container class="client_object_viewer_selector_panel" id="tcHm" file="player/player overview header selector panel" save_session_state="true">
+				<container class="client_object_viewer_selector_panel" id="tcHm" file="player/my_player_abilities_panel" save_session_state="true">
 					<integer id="default_for_unemployed_managers" value="tPCo"/>
 					<integer id="default_for_international_managers_other_team" value="tPCo"/>
 					<integer id="default_for_everyone_else" value="tPCo"/>

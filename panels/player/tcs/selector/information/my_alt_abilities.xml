@@ -1,0 +1,15 @@
+<panel>
+	<attachment_group class="horizontal_arrange" horizontal_layout="-6,2,-8" horizontal_gap="8" />
+
+	<widget class="client_object_viewer_xml_panel" id="tpAb" file="player/tcs/selector/information/ppdp abilities edited">
+		<record id="object_property" get_property="objt" set_property="objt"/>
+	</widget>
+
+	<!-- DIVIDER -->
+	<widget class="vertical_subtle_divider" width="2"/>
+
+  <widget class="player_scout_reports_panel" id="tPCo" file="player/tcs/selector/header/tcs pros cons only edited">
+		<record id="object_property" get_property="objt" set_property="objt"/>
+	</widget>
+	
+</panel>

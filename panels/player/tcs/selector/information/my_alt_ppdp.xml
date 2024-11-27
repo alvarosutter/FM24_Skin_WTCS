@@ -1,0 +1,118 @@
+<panel>
+	<attachment_group class="vertical_arrange" vertical_alignment="bottom,extend" />
+
+	<!-- PERSONAL DETAILS -->
+	<container priority="1">
+		<attachment_group class="horizontal_arrange" horizontal_alignment="fill" />
+
+		<container class="tcs_table_trans">
+			<attachment_group class="vertical_arrange" vertical_alignment="fill"/>
+			<!-- AGE + DOB -->
+			<container>
+				<attachment_group class="vertical_arrange" vertical_offset="0" vertical_gap="-2" horizontal_alignment="horizontal" horizontal_inset="0"/>
+
+				<!-- AGE LABEL-->
+				<widget class="label" auto_size="vertical" style="semi_bold" >
+					<translation id="text" type="use" translation_id="227770" value="Age"/>
+				</widget>
+        <!--Container for Age + DOB-->
+				<container>
+					<layout class="arrange_horizontal_attachment" alignment="left,extend" offset="0" gap="1"/>
+					<layout class="fit_children_attachment" alignment="vertical" gap="0" offset="0"/>
+					<layout class="stick_to_sides_attachment" alignment="top" apply_to_children="true" inset="2"/>
+					<!-- AGE -->
+					<widget class="editable_client_object_property_panel" id="age " height="22" auto_size="horizontal">
+						<record id="widget_info" class="formatted_label" alignment="left,top" auto_size="horizontal" >
+							<translation id="format" translation_id="242551" type="use" value="[%number#1] years old  "/>
+						</record>
+						<record id="widget_edit_info" width="0" height="0"/>
+						<record id="object_property" get_property="Page"/>
+					</widget>
+          <!--DOB-->
+          <widget class="label" auto_size="vertical" style="semi_bold" >
+					  <translation id="text" translation_id="230147" type="use" value="Date of Birth"/>
+				  </widget>
+				  <widget class="editable_client_object_property_panel" id="dobl" alignment="left,top" auto_size="vertical"  format="  ([%date#1-short])" colour="faded text">
+					  <record id="widget_info" class="game_formatted_label" auto_size="vertical"/>
+					  <record id="object_property" get_property="Pdob"/>
+				  </widget>
+				</container>
+			</container>
+
+      <!-- PERSONALITY -->
+			<container>
+				<attachment_group class="vertical_arrange" vertical_offset="0" vertical_gap="-2" horizontal_alignment="horizontal" horizontal_inset="0"/>
+				<widget class="label" id="PPs:" auto_size="vertical" style="semi_bold" >
+					<record id="object_property" get_property="PPst" name="true"/>
+				</widget>
+				<widget class="personality_label" id="PPst" auto_size="vertical" >
+					<record id="object_property" get_property="PPst"/>
+				</widget>
+			</container>
+
+      <!-- AGREE PLAYING TIME -->
+			<container>
+				<attachment_group class="vertical_arrange" vertical_offset="0" vertical_gap="-2" horizontal_alignment="horizontal" horizontal_inset="0"/>
+
+				<widget class="label" auto_size="vertical" style="semi_bold" >
+					<translation id="text" translation_id="492002" type="use" value="Value"/>
+				</widget>
+				<widget class="playing_time_label" id="Pcpt" auto_size="vertical" alignment="left, centre_y,can_scale" >
+					<record id="object_property" get_property="Pcpt"/>
+				</widget>
+			</container>
+      	
+		</container>
+
+		<container class="tcs_table_trans">
+			<attachment_group class="vertical_arrange" vertical_alignment="fill"/>
+      
+      <!-- VALUE -->
+			<container>
+				<attachment_group class="vertical_arrange" vertical_offset="0" vertical_gap="-2" horizontal_alignment="horizontal" horizontal_inset="0"/>
+				<!-- VALUE LABEL -->
+        <widget class="label" auto_size="vertical" style="semi_bold" >
+					<translation id="text" translation_id="227806" type="use" value="Value"/>
+				</widget>
+        <!-- TRANSFER VALUE -->
+        <widget class="transfer_value_label" show_button_appearance="false" id="TrVa" alignment="left, top" auto_size="vertical" size="large">
+					<record id="object_property" get_property="Pdva"/>
+				</widget>
+			</container>	
+
+      <!-- MEDIA DESCRIPTION -->
+			<container>
+				<attachment_group class="vertical_arrange" vertical_offset="0" vertical_gap="-2" horizontal_alignment="horizontal" horizontal_inset="0"/>
+				<widget class="label" id="PPs:" auto_size="vertical" style="semi_bold" >
+					<record id="object_property" get_property="Pdes" name="true"/>
+				</widget>
+				<widget class="player_description_text" id="Pdes" auto_size="vertical">
+				  <record id="object_property" get_property="Pdes"/>
+			  </widget>
+			</container>
+
+      <!-- ACTUAL PLAYING TIME -->
+			<container>
+				<layout class="stick_to_sides_attachment" apply_to_children="true"/>
+				<container>
+					<attachment_group class="vertical_arrange" vertical_offset="0" vertical_gap="-2" horizontal_alignment="horizontal" horizontal_inset="0"/>
+					<widget class="label" auto_size="vertical" style="semi_bold" >
+						<translation id="text" translation_id="492001" type="use" value="Actual Playing Time[COMMENT: AREA: Playing Time for Players; SUB-AREA: Contract Negotiations; FR-BN: 25975; TONE: Formal; CHARLIMIT: None; REF-ID: n/a; NOTE: concerns how much playing time a player is being promised]"/>
+					</widget>
+					<widget class="playing_time_label" id="PccV" alignment="left,top,can_scale" auto_size="vertical" >
+						<record id="object_property" get_property="Pcpt"/>
+					</widget>
+				</container>
+			</container>
+		</container>
+	</container>
+  
+
+  <!--Player extra details (e.g. onloan at...)-->
+	<container class="tcs_table_trans" height="14">
+		<layout class="stick_to_sides_attachment" apply_to_children="true"/>
+		<widget class="player_extra_details_text" size="small" colour="faded text" alignment="centre_x,centre_y" height="14">
+			<record id="object_property" get_property="PExD" />
+		</widget>
+	</container>
+</panel>

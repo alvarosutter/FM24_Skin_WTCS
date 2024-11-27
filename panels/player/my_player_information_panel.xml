@@ -1,0 +1,14 @@
+<panel navigation_container="false">
+	<container id="SUBP">
+		<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="0"/>
+		<layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
+	</container>
+
+	<record id="default_properties"  late_loading="true"/>
+
+	<!-- PERSONAL DETAILS: CHANGED TO MY PERSONAL VIEW -->
+  <container class="player_personal_details_panel" id="tpe1" file="player/tcs/selector/information/my_alt_ppdp">
+		<translation id="title" type="use" translation_id="294341"/>
+		<translation id="subtitle" type="use" translation_id="292589"/>
+	</container>
+</panel>
