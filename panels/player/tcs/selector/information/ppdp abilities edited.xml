@@ -2,7 +2,7 @@
 	<attachment_group class="horizontal_arrange" horizontal_layout="-6,2,-8" horizontal_gap="8" />
 
 	<!-- ABILITY -->
-	<container class="tcs_table">
+	<container class="tcs_table_trans">
 		<layout class="stick_to_sides_attachment" apply_to_children="true" inset="2,0,0,0"/>
 		<record id="object_property" get_property="objt" set_property="objt"/>
 

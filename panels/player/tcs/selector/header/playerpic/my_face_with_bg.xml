@@ -4,18 +4,38 @@
 	<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 	<boolean id="should_force_refresh" value="true"/>
 
-  <!-- <widget id="cKit" class="kit_icon" image_alignment="centre" scale_picture="true" kit_path="zoomed/large" kit_number_path="medium">
-		<record id="object_property" get_property="Pers" set_property="objt"/>
-	</widget> -->
-
   <record id="default_properties" save_session_state="true" dont_set_embedded_title="true">
 		<record id="object_property" get_property="objt" set_property="objt"/>
 	</record>
+
 	<!-- BACK KIT -->
   <widget class="kit_icon" id="cKit" file="player/tcs/selector/header/playerpic/my_backkit_empty" image_alignment="centre" scale_picture="true" kit_path="zoomed/large" kit_number_path="large" late_loading="true" />
 
-  
+
+  <container  width="50" priority="1" class="tcs_box" appearance="tcs/boxes/main/outline/header/paper" rrep="primary" brep="no_color">
+		<attachment_group class="vertical_arrange" vertical_alignment="top,extend"/>
+    <container>
+			<attachment_group class="vertical_arrange" vertical_alignment="fill"/>
+      <!-- CLUB BADGE -->
+	    <container class="tcs_box" appearance="tcs/boxes/main/header/paper" rrep="primary" brep="">
+		    <attachment_group class="horizontal_arrange" horizontal_alignment="right"/>
+
+		    <widget class="object_portrait_picture" id="pclB" width="50" height="50" keep_aspect_ratio="true" scale_picture="true" image_alignment="centre_x,top">
+			    <record id="object_property" dont_set_hint="true" get_property="Pclb" set_property="objt"/>
+		    </widget>
+	    </container>
+
+      <!-- NATION BADGE -->
+	    <container class="tcs_box" appearance="tcs/boxes/main/header/paper" rrep="primary" brep="">
+		    <attachment_group class="horizontal_arrange" horizontal_alignment="right"/>
 			
+        <widget class="object_portrait_picture" id="npiB" width="50" height="35" keep_aspect_ratio="true" scale_picture="true" image_alignment="centre_x,bottom">
+			    <record id="object_property" dont_set_hint="true" get_property="PNat" set_property="objt"/>
+		    </widget>
+	    </container>
+    </container>
+  </container>
+  		
 	<!-- CAPTAIN INDICATORS -->
 	<container>
 		<attachment_group class="horizontal_arrange" horizontal_alignment="left"/>

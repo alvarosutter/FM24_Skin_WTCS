@@ -3,7 +3,7 @@
 
 	
 
-		<container>
+		<container class="tcs_table_trans">
 			<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true" />
 
 			<!-- Bit that shows the data-->
