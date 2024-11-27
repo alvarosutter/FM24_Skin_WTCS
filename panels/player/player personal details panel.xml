@@ -4,40 +4,49 @@
 	<boolean id="should_force_refresh" value="true"/>
 
 	<!-- MAIN CONTAINER -->
-	<container class="tcs_box" appearance="tcs/boxes/main/outline/header/paper" rrep="primary" brep="tcs_accent" draw_vertical_dividers="true">
-		<attachment_group class="horizontal_arrange" horizontal_alignment="left,extend" horizontal_gap="8"/>
+	<container class="tcs_box" appearance="tcs/boxes/main/outline/header/paper" rrep="primary" brep="no_color" draw_vertical_dividers="true">
+		<attachment_group class="horizontal_arrange" horizontal_alignment="left,extend" horizontal_gap="24"/>
 
 		<!-- PLAYER INFO -->
-		<container width="520">
+		<container width="450" gap="8"> <!--original: 520-->
 			<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 
 			<container>
-				<attachment_group class="horizontal_arrange_autosize" vertical_offset="0" horizontal_inset="0"/>
+				<attachment_group class="horizontal_arrange" horizontal_alignment="left,extend" vertical_offset="0" horizontal_inset="0"/>
 
-				<!-- CONTAINER HOLDING KIT AND PLAER PIC -->
-				<container width="280">
+        <!-- CONTAINER HOLDING KIT -->
+				<container width="150">
 					<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 
 					<record id="default_properties" save_session_state="true" dont_set_embedded_title="true">
 						<record id="object_property" get_property="objt" set_property="objt"/>
 					</record>
+					
+					<!-- KIT SELECTOR -->
+					<widget file="player/tcs/selector/header/playerpic/my_backkit_only_selector" id="FACE" class="client_object_viewer_selector_panel" default_item="back"/>
+				</container>
 
-					<!-- STADIUM SELECTOR 
-					<widget file="player/tcs/selector/header/playerpic/stadium_sel" id="STAD" class="client_object_viewer_selector_panel"  default_item="STAp" /> -->
+				<!-- CONTAINER HOLDING PLAYER PICTURE -->
+				<container width="220">
+					<layout class="stick_to_sides_attachment" apply_to_children="true"/>
+
+					<record id="default_properties" save_session_state="true" dont_set_embedded_title="true">
+						<record id="object_property" get_property="objt" set_property="objt"/>
+					</record>
 					
 					<!-- FACE SELECTOR -->
-					<widget file="player/tcs/selector/header/playerpic/selector" id="FACE" class="client_object_viewer_selector_panel" default_item="defa"/>
+					<widget file="player/tcs/selector/header/playerpic/my_face_only_selector" id="FACE" class="client_object_viewer_selector_panel" default_item="face"/>
 				</container>
 
 				<!-- LOGOS AND EXTRA DETAILS -->
-				<container width="220" priority="1">
+				<container  width="60" priority="1" class="tcs_box" appearance="tcs/boxes/main/outline/header/paper" rrep="primary" brep="no_color">
 					<attachment_group class="vertical_arrange" vertical_alignment="top,extend"/>
 
 					<container height="55">
-						<attachment_group class="horizontal_arrange" horizontal_alignment="fill"/>
+						<attachment_group class="vertical_arrange" vertical_alignment="fill"/>
 
 						<!-- CLUB -->
-						<container class="tcs_box" appearance="tcs/boxes/main/outline/paper" rrep="bg lighter" brep="primary">
+						<container class="tcs_box" appearance="tcs/boxes/main/header/paper" rrep="primary" brep="">
 							<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 
 							<!-- IF NO CLUB -->
@@ -59,29 +68,13 @@
 						</container>
 
 						<!-- NATION LOGO -->
-						<container class="tcs_box" appearance="tcs/boxes/main/outline/paper" rrep="bg lighter" brep="primary">
+						<container class="tcs_box" appearance="tcs/boxes/main/header/paper" rrep="primary" brep="">
 							<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 
 							<widget class="object_portrait_picture" id="npiB" image_alignment="centre" scale_picture="true">
 								<record id="object_property" dont_set_hint="true" get_property="PNat" set_property="objt"/>
 							</widget>
 						</container>
-					</container>
-
-					<!-- SMALL SELECTOR -->
-					<container>
-						<attachment_group class="vertical_arrange" vertical_alignment="bottom,extend"/>
-
-						<container class="client_object_viewer_selector_panel" id="tcsH" file="player/player overview small header selector panel" save_session_state="true">
-							<integer id="default_for_unemployed_managers" value="pers"/>
-							<integer id="default_for_international_managers_other_team" value="pers"/>
-							<integer id="default_for_everyone_else" value="pers"/>
-							<integer id="default_for_versus_mode" value="pers"/>
-						</container>
-						
-						<widget class="player_extra_details_text" size="small" auto_size="vertical" colour="fg accent">
-							<record id="object_property" get_property="PExD"/>
-						</widget>
 					</container>
 				</container>
 			</container>
@@ -91,9 +84,9 @@
 		<container class="horizontal_adaptive_container" gap="16" id="left" draw_vertical_dividers="true">
 			<attachment_group class="horizontal_arrange" horizontal_alignment="fill"/>
 
-			<record id="default_properties" default_width="-1" minimum_width="340"/>
+			
 
-			<container priority="1">
+			<container priority="1" width="370">
 				<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 				<container class="client_object_viewer_selector_panel" id="tcHl" file="player/my_player_information_panel" save_session_state="true">
 					<integer id="default_for_unemployed_managers" value="tpAb"/>
@@ -103,7 +96,7 @@
 				</container>
 			</container>
 
-			<container priority="2">
+			<container priority="2" width="540">
 				<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 				<container class="client_object_viewer_selector_panel" id="tcHm" file="player/my_player_abilities_panel" save_session_state="true">
 					<integer id="default_for_unemployed_managers" value="tPCo"/>
@@ -113,7 +106,7 @@
 				</container>
 			</container>
 
-			<container priority="3">
+			<container priority="3" width="380">
 				<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 				<container class="client_object_viewer_selector_panel" id="tcHR" file="player/player overview header selector panel" save_session_state="true">
 					<integer id="default_for_unemployed_managers" value="Pcrs"/>

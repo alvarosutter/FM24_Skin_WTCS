@@ -1,0 +1,64 @@
+<!-- PANEL THAT DISPLAYS THE PLAYER FACE -->
+<!-- THIS VERSION FEATURES THE FULL KIT -->
+<panel>
+	<layout class="stick_to_sides_attachment" apply_to_children="true"/>
+	<boolean id="should_force_refresh" value="true"/>
+
+  <!-- <widget id="cKit" class="kit_icon" image_alignment="centre" scale_picture="true" kit_path="zoomed/large" kit_number_path="medium">
+		<record id="object_property" get_property="Pers" set_property="objt"/>
+	</widget> -->
+
+  <record id="default_properties" save_session_state="true" dont_set_embedded_title="true">
+		<record id="object_property" get_property="objt" set_property="objt"/>
+	</record>
+	<!-- BACK KIT -->
+  <widget class="kit_icon" id="cKit" file="player/tcs/selector/header/playerpic/my_backkit_empty" image_alignment="centre" scale_picture="true" kit_path="zoomed/large" kit_number_path="large" late_loading="true" />
+
+  
+			
+	<!-- CAPTAIN INDICATORS -->
+	<container>
+		<attachment_group class="horizontal_arrange" horizontal_alignment="left"/>
+		
+		<widget class="picture" file="tcs/icons/captain/captain_alt" width="22" height="22" keep_aspect_ratio="true" scale_picture="true" image_alignment="centre_x,bottom" rrep="fg accent">
+			<record id="object_property" get_property="PisC" set_property="Shwn"/>
+		</widget>
+			
+		<widget class="picture" file="tcs/icons/captain/vice" width="22" height="22" keep_aspect_ratio="true" scale_picture="true" image_alignment="centre_x,bottom" rrep="fg tertiary">
+			<record id="object_property" get_property="PisV" set_property="Shwn"/>
+		</widget>
+	</container>
+	
+	<!-- STATUS INDICATORS -->
+	<container>
+		<attachment_group class="horizontal_arrange" horizontal_alignment="left"/>
+
+		<widget class="player_status_all_button" id="psAB" maximised="true" auto_size="vertical" alignment="bottom" gap="-2" max_items_per_row_or_column="6" width="32">
+			<layout class="stick_to_sides_attachment" alignment="top,left" inset="0,2"/>
+			<record id="object_property" get_property="Pnfa"/>
+		</widget>
+	</container>
+
+	<!-- PLAYER FACE -->
+	<container>
+		<layout class="stick_to_sides_attachment" apply_to_children="true"/>
+
+		<container>
+			<attachment_group class="horizontal_arrange" horizontal_alignment="centre,extend"/>
+
+			<!-- FACE -->
+			<container width="180">
+				<layout class="stick_to_sides_attachment" apply_to_children="true"/>
+
+				<widget class="object_portrait_picture" id="face" image_alignment="centre,bottom" scale_picture="true" keep_aspect_ratio="true" wants_mouse_events="false">
+					<record id="object_property" get_property="objt"/>
+				</widget>
+		
+			</container>
+		</container>
+		
+		
+
+	</container>
+	
+</panel>

@@ -15,6 +15,7 @@
 	<colour name="tcs_accent_ligher" value="rgb(246,198,0)"/>
 	<colour name="tcs_accent_darker" value="rgb(135,116,27)"/>
 	<colour name="inboxstadoverlay" value="rgb(47,47,47)"/><!-- #2f2f2f -->
+  <colour name="no_color" value="rgb(47,47,47,0.2)" />
 	<!-- TCS Edits -->
 	<colour name="title" value="tcs_accent"/>
 	<colour name="human controlled" value="tcs_accent"/>
@@ -22,10 +23,10 @@
 	<colour name="bg accent" value="tcs_accent"/>
 
 	<!-- TCS PROFILE ATTRIBUTE COLOURS -->
-	<colour name="low attribute" red="169" green="169" blue="169"/>
-	<colour name="normal attribute" red="241" green="241" blue="241"/>
-	<colour name="good attribute" red="1" green="238" blue="255"/>
-	<colour name="excellent attribute" red="255" green="235" blue="59"/>
+	<colour name="low attribute" value="rgb(169,169,169)"/>
+	<colour name="normal attribute" value="rgb(241,241,241)"/>
+	<colour name="good attribute" value="rgb(1,238,255)"/>
+  <colour name="excellent attribute" value="rgb(255,235,59)"/>
 
 	<!-- ATTRIBUTE BOXES MOD -->
 	<colour name="unknown attribute background" value="bg darker"/>

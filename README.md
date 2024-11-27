@@ -1,7 +1,13 @@
-# FORK OF WTCS GOLD SKIN FOR FM24
+# FORK OF WTCS GOLD SKIN FOR FM24 BY bluestillidie00 AND workthespace
 
 I just wanted to change how the Player Screen looks, for now at least. First time doing this so I
-may have added some bugs.
+may have added some bugs. I edited to my liking and monitor specs, that means 15.6 inches, 1920x1080
+and Game Scaling Standard Size (100%). With other settings it may (most probably) look different.
+
+### Disclaimer
+
+I had problems with the Back Kit Zoomed, so I end up using one from another Skin
+(FM24_Zealand_WIP_1.2.9). Credits to FMEnhanced and Zealand.
 
 ## Player Screen after changes
 

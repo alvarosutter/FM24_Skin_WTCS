@@ -1,0 +1,14 @@
+<panel navigation_container="false">
+	<container id="SUBP">
+		<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="2" />
+		<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
+	</container>
+
+	<record id="default_properties" late_loading="true"/>
+
+	<!-- FACE ONLY -->
+	<container class="client_object_viewer_xml_panel" file="player/tcs/selector/header/playerpic/my_face_with_bg" id="fabg">
+		<translation id="title" type="use" value="Face Only" />
+	</container>
+
+</panel>

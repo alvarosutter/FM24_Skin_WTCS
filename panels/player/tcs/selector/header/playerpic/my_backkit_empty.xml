@@ -1,0 +1,18 @@
+<!-- PANEL THAT DISPLAYS THE PLAYER FACE -->
+<!-- THIS VERSION FEATURES THE FULL KIT -->
+<panel>
+	<layout class="stick_to_sides_attachment" apply_to_children="true"/>
+	<!-- Shirt -->
+	<widget class="picture" id="bSHR" image_alignment="centre" scale_picture="true" keep_aspect_ratio="false"/>
+
+	<container class="vertical_arrange_container" alignment="top,extend" offset="16" gap="0">
+
+		
+
+	</container>
+
+	<!-- Overlay Effect -->
+	<widget class="picture" id="bOVR" image_alignment="centre" scale_picture="true" keep_aspect_ratio="false">
+		<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
+	</widget> 
+</panel>

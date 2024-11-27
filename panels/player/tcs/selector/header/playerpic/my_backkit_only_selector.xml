@@ -1,0 +1,12 @@
+<panel navigation_container="false">
+	<container id="SUBP">
+		<layout class="stick_to_sides_attachment" alignment="all" apply_to_children="true" inset="2" />
+		<layout class="stick_to_sides_attachment" alignment="all" inset="0" />
+	</container>
+	
+	<record id="default_properties" late_loading="true"/>
+
+  <!-- BACK KIT ZOOMED -->
+  <widget class="kit_icon" id="cKit" file="player/tcs/selector/header/playerpic/my_backkit" image_alignment="centre" scale_picture="true" kit_path="zoomed/large" kit_number_path="large" late_loading="true" />
+ 
+</panel>
