@@ -10,24 +10,29 @@
 
 	<record id="default_properties" late_loading="true"/>
 
-	<!-- DEFAULT -->
+	<!-- FACE + BACK KIT ZOOMED -->
 	<container class="client_object_viewer_xml_panel" file="player/tcs/selector/header/playerpic/default" id="defa" >
-		<translation id="title" type="use" value="Back of Kit (Zoomed)" />
+		<translation id="title" type="use" value="Face Back Kit (Zoomed)" />
 	</container>
 
-	<!-- FACE -->
+	<!-- FACE ONLY -->
 	<container class="client_object_viewer_xml_panel" file="player/tcs/selector/header/playerpic/faceonly" id="face">
 		<translation id="title" type="use" value="Face Only" />
 	</container>
 
-	<!-- BACK ZOOMED OUT -->
+	<!-- FACE + FULL BACK KIT -->
 	<container class="client_object_viewer_xml_panel" file="player/tcs/selector/header/playerpic/back_full_dummy" id="bkzm" valid_for_unemployed_player="false" >
-		<translation id="title" type="use" value="Back of Kit (Full)" />
+		<translation id="title" type="use" value="Face Back Kit (Full)" />
 	</container>
 
-	<!-- BACK ZOOMED OUT -->
+	<!-- FACE + FULL FRONT KIT -->
 	<container class="client_object_viewer_xml_panel" file="player/tcs/selector/header/playerpic/frontkit" id="fron" valid_for_unemployed_player="false" >
-		<translation id="title" type="use" value="Front" />
+		<translation id="title" type="use" value="Face Front Kit (Full)" />
+	</container>
+
+  <!-- BACK KIT ZOOMED -->
+	<container class="client_object_viewer_xml_panel" file="player/tcs/selector/header/playerpic/backkit" id="back" >
+		<translation id="title" type="use" value="Back Kit Only (Zoomed)" />
 	</container>
 	
 	<!-- Combined 

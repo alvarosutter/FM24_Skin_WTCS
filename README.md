@@ -1,3 +1,22 @@
+# FORK OF WTCS GOLD SKIN FOR FM24
+
+I just wanted to change how the Player Screen looks, for now at least. First time doing this so I
+may have added some bugs.
+
+## Player Screen after changes
+
+#TODO : Add image
+
+\
+\
+\
+\
+\
+\
+\
+\
+\
+
 # tcs5
 
 ## WTCS Gold Installation Guide
@@ -8,17 +27,21 @@ In this document, we'll walk you through the process of installing of this skin 
 
 Before we begin, make sure you have the skin:
 
-You can download our skin from [FMScout](https://www.fmscout.com/a-wtcs-fm24-skin.html) or the official [Sports Interactive Forums](https://community.sigames.com/forums/topic/568501-fm23skin-wtcs5-by-bluestillidie00-and-workthespace-v12-released-20230118-new-attributeless-version/).
+You can download our skin from [FMScout](https://www.fmscout.com/a-wtcs-fm24-skin.html) or the
+official
+[Sports Interactive Forums](https://community.sigames.com/forums/topic/568501-fm23skin-wtcs5-by-bluestillidie00-and-workthespace-v12-released-20230118-new-attributeless-version/).
 
 ## Disclaimer
 
-THIS SKIN IS RECOMMENDED FOR USE AT 1920X1080 OR ABOVE, ANYTHING UNDER IT ISN'T OFFICIALLY SUPPORTED AND YOU WON'T RECEIVE HELP FOR PROBLEMS.
+THIS SKIN IS RECOMMENDED FOR USE AT 1920X1080 OR ABOVE, ANYTHING UNDER IT ISN'T OFFICIALLY SUPPORTED
+AND YOU WON'T RECEIVE HELP FOR PROBLEMS.
 
 ## Installation Steps
 
 1. **Locate Your Football Manager 2024 Documents Folder:**
 
-   - On Windows, the default installation directory is usually `C:\Users\<yoursusername>\Documents\Sports Interactive\Football Manager 2024`.
+   - On Windows, the default installation directory is usually
+     `C:\Users\<yoursusername>\Documents\Sports Interactive\Football Manager 2024`.
 
 2. **Check if you have the skins folder:**
 
@@ -29,13 +52,15 @@ THIS SKIN IS RECOMMENDED FOR USE AT 1920X1080 OR ABOVE, ANYTHING UNDER IT ISN'T 
 
    - Go the place where your skin file is downloaded.
    - Extract it, and copy\cut the entire folder.
-   - Paste it inside the skins folder `C:\Users\<yoursusername>\Documents\Sports Interactive\Football Manager 2024\skins`.
+   - Paste it inside the skins folder
+     `C:\Users\<yoursusername>\Documents\Sports Interactive\Football Manager 2024\skins`.
 
 4. **Load the WTCS Gold Skin in Football Manager:**
 
    - Start or restart Football Manager 2024.
    - Go to the "Preferences" menu.
-   - In the "Interface" section, select the custom skin you installed from the "Skin" drop-down menu.
+   - In the "Interface" section, select the custom skin you installed from the "Skin" drop-down
+     menu.
    - Click "Confirm" to apply the skin changes.
 
 5. **Enjoy Your WTCS Gold Skin:**
@@ -50,7 +75,8 @@ THIS SKIN IS RECOMMENDED FOR USE AT 1920X1080 OR ABOVE, ANYTHING UNDER IT ISN'T 
 
 2. **Go into the folder for your mod of choice.**
 
-3. **Copy the folder (graphics/panels), go to the root folder of your WTCS Gold skin (e.g., WTCS Gold v1.2).**
+3. **Copy the folder (graphics/panels), go to the root folder of your WTCS Gold skin (e.g., WTCS
+   Gold v1.2).**
 
 4. **Paste, it should ask to overwrite, press yes.**
 
@@ -60,25 +86,30 @@ THIS SKIN IS RECOMMENDED FOR USE AT 1920X1080 OR ABOVE, ANYTHING UNDER IT ISN'T 
 
 ## Troubleshooting
 
-If you encounter any issues during the installation or if the skin doesn't work as expected, consider the following:
+If you encounter any issues during the installation or if the skin doesn't work as expected,
+consider the following:
 
-- Make sure you've placed the skin in the correct "skins" folder within your Football Manager 2024 directory.
+- Make sure you've placed the skin in the correct "skins" folder within your Football Manager 2024
+  directory.
 - Ensure the skin you have downloaded is the WTCS Gold, and up to date.
 - You are using a supported resolution.
 
 ## Bugs or Feedback
 
-In case you encounter any bug, or want to share feedback, please feel free to share it with us through this GitHub, but please be aware that we will review then up to our availability.
+In case you encounter any bug, or want to share feedback, please feel free to share it with us
+through this GitHub, but please be aware that we will review then up to our availability.
 
 ## How to report a bug, or share feedback
 
-1. **Before opening any item, please validate if there is already something similar or equal to what you are reporting open, and that you are using the latest version of the skin.**
+1. **Before opening any item, please validate if there is already something similar or equal to what
+   you are reporting open, and that you are using the latest version of the skin.**
 
    - Reporting the same issue will only create noise.
 
 2. **Detail it as much as possible.**
 
-   - E.g., I found this issue under the player profile, or when I mouse over this information in the stadium screen the information is not readable.
+   - E.g., I found this issue under the player profile, or when I mouse over this information in the
+     stadium screen the information is not readable.
 
 3. **Share whitch resolution you are using, and zoom value.**
 
@@ -87,7 +118,7 @@ In case you encounter any bug, or want to share feedback, please feel free to sh
 4. **Classify if it is a bug or feedback on the title of the issue you are opening.**
 
    - This will help us make sure we can prioritize things properly, and help you with what we can.
-   - E.g., Bug - Player name text isn't readable in the jersey. 
+   - E.g., Bug - Player name text isn't readable in the jersey.
 
 5. **If you are opening a bug, provide screenshots.**
 
