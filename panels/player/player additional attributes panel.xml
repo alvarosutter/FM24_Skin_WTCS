@@ -131,7 +131,7 @@
 
 			</container>
 
-			<!-- Preferred moves -->
+			<!-- PLAYER TRAITS -->
 			<container class="tcs_table" transparency="0.8">
 				<layout class="arrange_vertical_attachment" alignment="top,extend" offset="0"/>
 				<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true"/>
@@ -155,7 +155,7 @@
 
 							<record id="object_property" get_property="PHcr" set_property="Shwn"/>
 
-							<widget class="preferred_move_popup_button" id="nPPM" appearance="" alignment="left,centre_y" icon_enabled="false" font="text" height="20" colour="faded text" rrep="faded text">
+							<widget class="preferred_move_popup_button" id="nPPM" appearance="" alignment="left,centre_y" icon_enabled="false" font="text" height="30" colour="faded text" rrep="faded text">
 								<record id="object_property" get_property="PmCo" set_property="valu"/>
 							</widget>
 
