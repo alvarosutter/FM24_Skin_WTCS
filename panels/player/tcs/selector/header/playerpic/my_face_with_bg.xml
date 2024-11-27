@@ -29,7 +29,7 @@
 	    <container class="tcs_box" appearance="tcs/boxes/main/header/paper" rrep="primary" brep="">
 		    <attachment_group class="horizontal_arrange" horizontal_alignment="right"/>
 			
-        <widget class="object_portrait_picture" id="npiB" width="50" height="35" keep_aspect_ratio="true" scale_picture="true" image_alignment="centre_x,bottom">
+        <widget class="object_portrait_picture" id="npiB" width="50" height="50" keep_aspect_ratio="true" scale_picture="true" image_alignment="centre_x,bottom">
 			    <record id="object_property" dont_set_hint="true" get_property="PNat" set_property="objt"/>
 		    </widget>
 	    </container>

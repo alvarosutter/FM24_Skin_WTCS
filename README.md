@@ -11,17 +11,7 @@ I had problems with the Back Kit Zoomed, so I end up using one from another Skin
 
 ## Player Screen after changes
 
-#TODO : Add image
-
-\
-\
-\
-\
-\
-\
-\
-\
-\
+![player_screen](./edited_player_screen.png)
 
 # tcs5
 

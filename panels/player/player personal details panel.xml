@@ -56,7 +56,7 @@
 				</container>
 			</container>
 
-			<container priority="2" width="540">
+			<container priority="2" width="570">
 				<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 				<container class="client_object_viewer_selector_panel" id="tcHm" file="player/my_player_abilities_panel" save_session_state="true">
 					<integer id="default_for_unemployed_managers" value="tPCo"/>
@@ -66,7 +66,7 @@
 				</container>
 			</container>
 
-			<container priority="3" width="380">
+			<container priority="3" width="350">
 				<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 				<container class="client_object_viewer_selector_panel" id="tcHR" file="player/player overview header selector panel" save_session_state="true">
 					<integer id="default_for_unemployed_managers" value="Pcrs"/>
