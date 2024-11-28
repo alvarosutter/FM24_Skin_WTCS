@@ -38,7 +38,7 @@
 	</widget>
 
 	<!-- FORM / LAST 10 GAMES -->
-	<widget class="player_additional_stats_panel" file="none" id="la10">
+	<widget class="player_additional_stats_panel" file="none" id="la10" default_focus="true">
 		<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 		<translation id="title" type="use" value=" Form (Last 10 Matches)"/>
 		<translation id="subtitle" translation_id="344664" type="use" />
