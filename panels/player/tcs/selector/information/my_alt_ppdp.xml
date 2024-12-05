@@ -3,10 +3,11 @@
 
 	<!-- PERSONAL DETAILS -->
 	<container priority="1">
-		<attachment_group class="horizontal_arrange" horizontal_alignment="fill" />
-
+	<attachment_group class="vertical_arrange" vertical_alignment="fill"/>
+		
 		<container class="tcs_table_trans">
-			<attachment_group class="vertical_arrange" vertical_alignment="fill"/>
+			<attachment_group class="horizontal_arrange" horizontal_alignment="fill" />
+
 			<!-- AGE + DOB -->
 			<container>
 				<attachment_group class="vertical_arrange" vertical_offset="0" vertical_gap="-2" horizontal_alignment="horizontal" horizontal_inset="0"/>
@@ -39,35 +40,7 @@
 				</container>
 			</container>
 
-      <!-- PERSONALITY -->
-			<container>
-				<attachment_group class="vertical_arrange" vertical_offset="0" vertical_gap="-2" horizontal_alignment="horizontal" horizontal_inset="0"/>
-				<widget class="label" id="PPs:" auto_size="vertical" style="semi_bold" >
-					<record id="object_property" get_property="PPst" name="true"/>
-				</widget>
-				<widget class="personality_label" id="PPst" auto_size="vertical" >
-					<record id="object_property" get_property="PPst"/>
-				</widget>
-			</container>
-
-      <!-- AGREE PLAYING TIME -->
-			<container>
-				<attachment_group class="vertical_arrange" vertical_offset="0" vertical_gap="-2" horizontal_alignment="horizontal" horizontal_inset="0"/>
-
-				<widget class="label" auto_size="vertical" style="semi_bold" >
-					<translation id="text" translation_id="492002" type="use" value="Value"/>
-				</widget>
-				<widget class="playing_time_label" id="Pcpt" auto_size="vertical" alignment="left, centre_y,can_scale" >
-					<record id="object_property" get_property="Pcpt"/>
-				</widget>
-			</container>
-      	
-		</container>
-
-		<container class="tcs_table_trans">
-			<attachment_group class="vertical_arrange" vertical_alignment="fill"/>
-      
-      <!-- VALUE -->
+			<!-- VALUE -->
 			<container>
 				<attachment_group class="vertical_arrange" vertical_offset="0" vertical_gap="-2" horizontal_alignment="horizontal" horizontal_inset="0"/>
 				<!-- VALUE LABEL -->
@@ -79,8 +52,38 @@
 					<record id="object_property" get_property="Pdva"/>
 				</widget>
 			</container>	
+      	
+		</container>
 
-      <!-- MEDIA DESCRIPTION -->
+		<container class="tcs_table_trans">
+			<attachment_group class="horizontal_arrange" horizontal_alignment="fill" />
+
+			<!-- WAGE -->
+			<container>
+				<attachment_group class="vertical_arrange_autosize" vertical_gap="-2" />
+
+				<widget class="label" id="wglb" auto_size="vertical" style="semi_bold" >
+					<translation id="text" type="use" translation_id="242353" value="Wages"/>
+				</widget>
+				<widget class="link_text" id="wgex" section="Pcnr" auto_size="vertical" size="normal" alignment="left,can_scale"/>
+			</container>
+		</container>
+
+		<container class="tcs_table_trans">
+			<attachment_group class="horizontal_arrange" horizontal_alignment="fill" />
+			
+			<!-- PERSONALITY -->
+			<container>
+				<attachment_group class="vertical_arrange" vertical_offset="0" vertical_gap="-2" horizontal_alignment="horizontal" horizontal_inset="0"/>
+				<widget class="label" id="PPs:" auto_size="vertical" style="semi_bold" >
+					<record id="object_property" get_property="PPst" name="true"/>
+				</widget>
+				<widget class="personality_label" id="PPst" auto_size="vertical" >
+					<record id="object_property" get_property="PPst"/>
+				</widget>
+			</container>
+
+			<!-- MEDIA DESCRIPTION -->
 			<container>
 				<attachment_group class="vertical_arrange" vertical_offset="0" vertical_gap="-2" horizontal_alignment="horizontal" horizontal_inset="0"/>
 				<widget class="label" id="PPs:" auto_size="vertical" style="semi_bold" >
@@ -90,8 +93,25 @@
 				  <record id="object_property" get_property="Pdes"/>
 			  </widget>
 			</container>
+      	
+		</container>
 
-      <!-- ACTUAL PLAYING TIME -->
+		<container class="tcs_table_trans">
+			<attachment_group class="horizontal_arrange" horizontal_alignment="fill" />
+			
+			<!-- AGREE PLAYING TIME -->
+			<container>
+				<attachment_group class="vertical_arrange" vertical_offset="0" vertical_gap="-2" horizontal_alignment="horizontal" horizontal_inset="0"/>
+
+				<widget class="label" auto_size="vertical" style="semi_bold" >
+					<translation id="text" translation_id="492002" type="use" value="Value"/>
+				</widget>
+				<widget class="playing_time_label" id="Pcpt" auto_size="vertical" alignment="left, centre_y,can_scale" >
+					<record id="object_property" get_property="Pcpt"/>
+				</widget>
+			</container>
+
+			<!-- ACTUAL PLAYING TIME -->
 			<container>
 				<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 				<container>
@@ -104,7 +124,9 @@
 					</widget>
 				</container>
 			</container>
+      	
 		</container>
+
 	</container>
   
 
