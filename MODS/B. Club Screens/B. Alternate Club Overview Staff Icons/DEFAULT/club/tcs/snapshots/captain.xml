@@ -51,7 +51,7 @@
                             <translation id="text" translation_id="300013" type="use" value="Captain" />
                         </widget>
 
-                        <widget class="picture" file="tcs/icons/captain/captain" width="12" height="12" keep_aspect_ratio="true" scale_picture="true" image_alignment="middle,left" >
+                        <widget class="picture" file="tcs/icons/captain/my_captain" width="12" height="12" keep_aspect_ratio="true" scale_picture="true" image_alignment="middle,left" >
                         <layout class="stick_to_sides_attachment" alignment="top" inset="5"/>
                         </widget>
 

@@ -6,7 +6,7 @@
 	
 	<!--Name of the player: This is hidden on the player stats panel-->
 	<!-- the font size reduces one size when the name is bigger than 16 characters -->
-	<widget class="label" id="bNAM" size="10" alignment="top,can_scale" font="fonts/kit name">
+	<widget class="label" id="bNAM" size="10" alignment="top,can_scale" font="fonts/kit">
 		<layout class="stick_to_sides_attachment" alignment="top" inset="18" />
 		<layout class="stick_to_sides_attachment" alignment="horizontal" inset="2"/>
 	</widget>

@@ -5,10 +5,10 @@
 	<!-- Shirt -->
 	<widget class="picture" id="bSHR" image_alignment="centre" scale_picture="true" keep_aspect_ratio="false"/>
 
-	<container class="vertical_arrange_container" alignment="top,extend" offset="16" gap="0">
+	<container class="vertical_arrange_container" alignment="top,extend" offset="20" gap="0">
 
 		<!-- Player Name -->
-		<widget class="label" id="bNAM" size="12" alignment="top,can_scale" font="fonts/kit name"/>
+		<widget class="label" id="bNAM" size="16" alignment="top,can_scale" font="fonts/kit"/>
 
 		<!-- Player Number -->
 		<widget class="picture" id="bNUM" image_alignment="centre" scale_picture="true"/>

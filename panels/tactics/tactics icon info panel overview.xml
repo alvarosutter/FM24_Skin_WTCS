@@ -189,7 +189,7 @@
 		</widget>
 		
 							       <!-- captain/vice captain icon -->
-       <widget class="picture" id="capi" scale_picture="true" file="tcs/icons/captain/captain" width="14" height="14" >
+       <widget class="picture" id="capi" scale_picture="true" file="tcs/icons/captain/my_captain" width="14" height="14" >
      			<layout class="stick_to_sides_attachment" alignment="bottom" inset="65"/>
 			<layout class="stick_to_sides_attachment" alignment="left" inset="8"/>
       </widget>
